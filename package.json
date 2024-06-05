@@ -1,0 +1,18 @@
+{
+  "private": "true",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "postinstall": "curl -o ./src/source/codes.json 'https://flagcdn.com/en/codes.json'",
+    "start": "npx tsx ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "tsx": "^4.11.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "sharp": "^0.33.4"
+  }
+}
