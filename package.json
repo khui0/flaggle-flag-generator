@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "postinstall": "curl -o ./src/source/codes.json 'https://flagcdn.com/en/codes.json'",
-    "start": "npx tsx ./src/index.ts"
+    "start": "npx tsx ./src/index.ts",
+    "poststart": "npx prettier ./dist/data.json --write"
   },
   "devDependencies": {
     "@types/node": "^20.14.2",
@@ -13,6 +14,7 @@
   },
   "dependencies": {
     "chalk": "^5.3.0",
+    "prettier": "^3.3.1",
     "sharp": "^0.33.4"
   }
 }
