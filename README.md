@@ -1,6 +1,6 @@
 # flaggle-flag-generator
 
-Produce images of country flags with a common aspect ratio to use in Flaggle
+Generate images of country flags with a common aspect ratio to use in Flaggle
 
 ## Usage
 
